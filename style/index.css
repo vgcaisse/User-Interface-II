@@ -51,23 +51,26 @@ body{
     background-color: #FBFFFB;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 h1{
     color: #4f4f4f;
     font-size: 6rem;
     font-family: 'Oxygen', sans-serif;
 }
+
 h2{
     font-size: 3rem;
 }
+
 h3{
     font-size: 2.2rem;
 }
 
 h2, h3{
-    color: #4f4f4f;
+    color: black;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 a{
     text-decoration: none;
@@ -84,6 +87,7 @@ nav{
     top: 0;
     z-index: 999; /*everything should scroll behind this*/
     background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
 }
 .name{
     width: 5%;
@@ -99,10 +103,67 @@ nav{
 /*top section styles*/
 .top {
     height: 40vh;
-    background-image: url(https://media.istockphoto.com/vectors/grunge-red-announced-word-oval-rubber-seal-stamp-on-white-background-vector-id1328526586?k=20&m=1328526586&s=612x612&w=0&h=32RlfQeGeJq_jri60807Kq64Fcrk1jL_X8RyvmPXYeM=);
+    background-image: url("https://media.istockphoto.com/vectors/grunge-red-announced-word-oval-rubber-seal-stamp-on-white-background-vector-id1328526586?k=20&m=1328526586&s=612x612&w=0&h=32RlfQeGeJq_jri60807Kq64Fcrk1jL_X8RyvmPXYeM=");
     background-position: bottom;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 14vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 5%;
+}
+
+.container p {
+    margin-top: 2vh;
+}
+
+.container .btn {
+    width: 15%;
+    height: 5vh;
+    align-self: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+a.links {
+    transition: 1s;
+}
+
+a.links:hover {
+    background-color: #4f4f4f;
+    color: #FBFFFB;
+}
+
+/* mid section styles */
+
+.container2 {
+    display: flex;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.container2 div{
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 5%;
+    width: 100%;
+    flex-wrap: wrap;
 }
