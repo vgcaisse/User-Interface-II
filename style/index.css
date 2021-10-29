@@ -41,10 +41,11 @@ footer, header, hgroup, menu, nav, section {
 
 /* General Styles */
 
-html{
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     font-size: 1.8rem;
     line-height: 1.5;
     color: #4f4f4f;
@@ -78,6 +79,16 @@ a{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.btn {
+    width: 15%;
+    height: 5vh;
+    align-self: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+
+    border-radius: 10px;
+}
+
 /*header section styles*/
 nav{
     display: flex;
@@ -86,7 +97,7 @@ nav{
     width: 100%;
     top: 0;
     z-index: 999; /*everything should scroll behind this*/
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 128, 128, 0.8);
     padding: 2%;
 }
 .name{
@@ -134,14 +145,6 @@ nav{
     margin-top: 2vh;
 }
 
-.btn {
-    width: 15%;
-    height: 5vh;
-    align-self: center;
-    margin-top: 2vh;
-    margin-bottom: 5vh;
-}
-
 a.links {
     transition: 1s;
 }
@@ -177,6 +180,8 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
+
+    background-color: teal;
 }
 
 footer .btn{
