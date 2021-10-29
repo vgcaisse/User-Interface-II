@@ -139,9 +139,12 @@ nav{
     flex-direction: column;
     text-align: center;
     margin: 0 5%;
+
+    background-color: rgba(0, 128, 128, 0.8);
 }
 
-.container p {
+.container p{
+    padding: 2%;
     margin-top: 2vh;
 }
 
