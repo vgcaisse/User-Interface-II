@@ -48,13 +48,13 @@ html {
 body {
     font-size: 1.8rem;
     line-height: 1.5;
-    color: #4f4f4f;
+    color: #FBFFFB;
     background-color: #FBFFFB;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1{
-    color: #4f4f4f;
+    color: #FBFFFB;
     font-size: 6rem;
     font-family: 'Oxygen', sans-serif;
 }
@@ -75,7 +75,7 @@ h2, h3{
 }
 a{
     text-decoration: none;
-    color:#4f4f4f;
+    color:#FBFFFB;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -148,15 +148,6 @@ nav{
     margin-top: 2vh;
 }
 
-a.links {
-    transition: 1s;
-}
-
-a.links:hover {
-    background-color: #4f4f4f;
-    color: #FBFFFB;
-}
-
 /* mid section styles */
 
 .container2 {
@@ -183,6 +174,8 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 5vh;
+    color: #FBFFFB;
 
     background-color: teal;
 }
@@ -201,27 +194,17 @@ footer .btn{
     margin-bottom: 10vh;
 }
 
-.parent {
-    color: black;
-    font-size: 12px;
-    border: 1px solid black;
-    padding: 20px;
- }
- .child {
-    color: red;
-    font-size: 16px;
-    margin: 20px;
- }
- .grandchild {
-    width: 400px;
-    height: 100px;
-    background: gray;
- }
+.email {
+    color: #FBFFFB;
+    font-size: 2rem;
+}
 
  /* media queries */
 
  @media (max-width: 800px) {
-     
+     h1 {
+         font-size: 3rem;
+     }
  }
 
  @media (max-width: 500px) {
