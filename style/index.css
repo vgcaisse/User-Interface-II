@@ -209,25 +209,32 @@ footer .btn{
 
  /* mobile view */
  @media (max-width: 500px) {
-     nav {
-         flex-direction: column;
-         flex-wrap: wrap;
-         justify-content: center;
-         align-items: center;
-         position: relative;
-     }
+    nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
 
-     .links {
-         font-size: 2rem;
-         flex-wrap: wrap;
-         width: 20%;
-         margin-top: 1vh;
-         margin-bottom: 1vh;
-         line-height: 2;
-     }
+    .links {
+        font-size: 2rem;
+        flex-wrap: wrap;
+        width: 20%;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        line-height: 2;
+    }
 
-     div.top.bg-img {
-         margin-bottom: 2vh;
-     }
+    div.top.bg-img {
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+    }
+
+    .projects {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
  }
 
